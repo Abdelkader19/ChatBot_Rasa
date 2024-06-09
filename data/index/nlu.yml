@@ -1,0 +1,170 @@
+version: "3.1"
+
+nlu:
+- intent: salut
+  examples: |
+    - Salut
+    - Bonjour
+    - salem
+    - Ahla
+    - bjr
+    - Bonsoir
+    - 3aslema
+    - Allons-y
+    - slt
+    - bsr
+    - Bonsoir
+    - Bon après-midi
+
+- intent: aurevoir
+  examples: |
+    - aurevoir
+    - à plus tard
+    - bonne nuit
+    - beslema
+    - bonne journée
+    - à la prochaine
+    - bye bye
+    - à bientôt
+    - bye
+     
+
+
+- intent: affirmer
+  examples: |
+    - oui
+    - ouais
+    - effectivement
+    - bien sûr
+    - ça semble bien
+    - correct
+    - c'est ca 
+    - bien 
+    - ok
+
+- intent: refuser
+  examples: |
+    - non
+    - nn
+    - jamais
+    - je ne pense pas
+    - je n'aime pas ça
+    - pas du tout
+    - pas vraiment 
+    - la 
+
+- intent: mood_heureux
+  examples: |
+    - parfait
+    - génial
+    - incroyable
+    - merveilleux
+    - je me sens très bien
+    - je vais bien
+    - je suis incroyable 
+    - super excité
+    - extrêmement bien
+    - tellement parfait
+    - tellement bien
+    
+
+- intent: mood_malheureux
+  examples: |
+    - Je suis malheureux
+    - je ne me sens pas très bien
+    - je suis déçu
+    - super malheureux
+    - Je suis tellement malheureux
+    - triste
+    - très triste
+    - malheureux
+    - pas bon
+    - pas très bien
+    - extrêmement malheureux
+    - tellement malheureux
+    - si triste
+
+- intent: jesuisunChatBot
+  examples: |
+    - Etes-vous un robot?
+    - Êtes-vous un être humain?
+    - est-ce que je parle à un bot ?
+    - est-ce que je parle à un humain ?
+
+- intent: recinov
+  examples: |
+    - c'est quoi rec inov?
+    - Quelle est la spécialité de Rec-Inov dans le domaine du recrutement ? 
+    - Quelle est l'expertise particulière de Rec-Inov dans le domaine du recrutement ?
+    - Quelle est la spécialisation de Rec-Inov en matière de recrutement ?
+- intent: objectifrecinov
+  examples: |
+    - Quel est l'objectif principal de votre entreprise dans le domaine du recrutement ?
+    - Quel est le but principal de votre entreprise dans le domaine du recrutement ?
+    - Quels sont les objectifs principaux que votre entreprise cherche à atteindre dans le domaine du recrutement ?
+- intent: adresserecinov
+  examples: |
+    - Pourriez-vous fournir les détails de localisation de votre entreprise?
+    - Où est située votre entreprise ?
+    - Pourriez-vous me donner l'adresse de votre entreprise ?
+- intent: servicerecinov
+  examples: |
+    - Quels sont les services offerts par la société 'Rec Inov' pour faciliter la création de CV ?
+    - Quels services propose la société 'Rec Inov' pour aider à la création de CV ?
+    - Quelles sont les offres de services de 'Rec Inov' pour faciliter l'élaboration de CV ?
+- intent: emploirecinov
+  examples: |
+    - Comment Rec-inov simplifie-t-il le processus de recherche d'emploi pour ses utilisateurs ?
+    - Quelles sont les méthodes utilisées par Rec-inov pour rendre la recherche d'emploi plus simple pour ses utilisateurs ?
+    - Comment Rec-inov facilite-t-il la recherche d'emploi pour ses utilisateurs ?
+- intent: candidaturerecinov
+  examples: |
+    - Comment vous facilitez le suivi des candidatures pour les utilisateurs ?
+    - En quoi la plateforme Rec-inov simplifie-t-elle le suivi des candidatures pour les utilisateurs ?
+    - Comment Rec-inov aide-t-il les utilisateurs à suivre leurs candidatures plus facilement ?
+- intent: offreemploirecinov
+  examples: |
+    - Comment Rec-INOV personnalise-t-il les offres d'emploi pour ses utilisateurs ?
+    - Comment Rec-INOV adapte-t-il les offres d'emploi en fonction des utilisateurs ?
+    - Comment Rec-INOV personnalise-t-il les offres d'emploi pour répondre aux besoins des utilisateurs ?
+- intent: creationcv
+  examples: |
+    - Comment REC-INOV facilite-t-il le processus de création de CV pour ses utilisateurs ?
+    - Quels sont les moyens par lesquels REC-INOV simplifie-t-il le processus de création de CV pour ses utilisateurs ?
+    - Comment REC-INOV rend-il plus facile la création de CV pour ses utilisateurs ?
+- intent: espacepersonnel
+  examples: |
+    - Quels avantages offre l'espace personnel de REC-INOV aux utilisateurs ?
+    - Quels sont les bénéfices de l'espace personnel de REC-INOV pour les utilisateurs ?
+    - En quoi l'espace personnel de REC-INOV est-il avantageux pour les utilisateurs ?
+    - Quels avantages les utilisateurs peuvent-ils tirer de leur espace personnel sur REC-INOV ?
+    - Comment l'espace personnel de REC-INOV améliore-t-il l'expérience des utilisateurs ?
+    - Quels sont les atouts de l'espace personnel de REC-INOV par rapport à d'autres plateformes de recrutement en ligne ?
+- intent: posteplateforme
+  examples: |
+    - Quels postes sont actuellement ouverts sur votre plateforme ?
+    - Quels types d'emplois sont proposés en ce moment sur votre plateforme ?
+    - Avez-vous des opportunités d'emploi disponibles actuellement ?
+    - Pouvez-vous me donner un aperçu des offres d'emploi disponibles sur votre plateforme ?
+    - Y a-t-il des offres d'emploi récentes que je pourrais consulter ?
+    - Quelles sont les opportunités professionnelles actuellement proposées ?
+    - Quels sont les emplois disponibles pour les chercheurs d'emploi en ce moment ?
+    - Puis-je avoir des informations sur les postes vacants actuels sur votre plateforme ?
+    - Avez-vous une liste des offres d'emploi actuelles que je pourrais parcourir ?
+    - Quels sont les emplois disponibles auxquels je pourrais postuler dès maintenant ?
+    - Quelles sont les offres d'emploi disponibles actuellement sur votre plateforme ?
+    - Y a-t-il des offres d'emploi pour le poste de ?
+    - Y a-t-il des opportunités d'emploi pour le poste de  actuellement disponibles sur votre plateforme ?
+    - Avez-vous des offres d'emploi pour le poste de  ?
+    -  Est-ce qu'il y a des postes vacants pour sur votre plateforme ?
+    - Des offres d'emploi sont-elles ouvertes pour le poste de  en ce moment ?
+    - Pouvez-vous me dire s'il y a des opportunités professionnelles pour le poste de  ?
+    - Y a-t-il des offres d'emploi disponibles pour le poste de  que je pourrais consulter ?
+    - Est-ce qu'il y a des offres pour le poste de sur votre plateforme ?
+    - Puis-je trouver des offres d'emploi pour le poste de sur votre site ?
+    - Avez-vous des informations sur les emplois disponibles pour ?
+    - Existe-t-il des opportunités d'emploi pour le poste de que je pourrais explorer sur votre plateforme ?
+- intent: politiqueconfidentialité
+  examples: |
+    - Où puis-je trouver des informations sur la politique de confidentialité de votre entreprise ?
+    - Comment puis-je accéder à la politique de confidentialité de votre entreprise ?

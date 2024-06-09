@@ -1,0 +1,58 @@
+version: "3.1"
+
+rules:
+
+- rule: Say aurevoir anytime the user says aurevoir
+  steps: 
+  - intent: aurevoir
+  - action: utter_aurevoir
+
+- rule: Say jesuisunChatBot anytime the user challenges
+  steps:
+  - intent: jesuisunChatBot
+  - action: utter_jesuisunChatBot
+
+- rule: Say recinov's information
+  steps: 
+  - intent: recinov
+  - action: utter_recinov 
+- rule: Say objectifrecinov's information
+  steps: 
+  - intent: objectifrecinov
+  - action: utter_objectifrecinov 
+- rule: Say adresserecinov's information
+  steps: 
+  - intent: adresserecinov
+  - action: utter_adresserecinov 
+- rule: Say servicerecinov's information
+  steps: 
+  - intent: servicerecinov
+  - action: utter_servicerecinov 
+- rule: Say emploirecinov's information
+  steps: 
+  - intent: emploirecinov
+  - action: utter_emploirecinov 
+- rule: Say candidaturerecinov's information
+  steps: 
+  - intent: candidaturerecinov
+  - action: utter_candidaturerecinov 
+- rule: Say offreemploirecinov's information
+  steps: 
+  - intent: offreemploirecinov
+  - action: utter_offreemploirecinov 
+- rule: Say creationcv's information
+  steps: 
+  - intent: creationcv
+  - action: utter_creationcv 
+- rule: Say espacepersonnel's information
+  steps: 
+  - intent: espacepersonnel
+  - action: utter_espacepersonnel 
+- rule: Say posteplateforme's information
+  steps: 
+  - intent: posteplateforme
+  - action: utter_posteplateforme 
+- rule: Say politiqueconfidentialité's information
+  steps: 
+  - intent: politiqueconfidentialité
+  - action: utter_politiqueconfidentialité 

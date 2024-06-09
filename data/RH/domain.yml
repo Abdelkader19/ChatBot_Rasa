@@ -1,0 +1,350 @@
+version: "3.1"
+
+intents:
+  - salut
+  - aurevoir
+  - affirmer
+  - refuser
+  - mood_heureux
+  - mood_malheureux
+  - jesuisunChatBot
+  - QuestionEntretien
+  - AgentLogistique
+  - IngénieurIntelligenceArtificielle
+  - AnalysteMarché
+  - AnalysteFinancier
+  - AssistantRessourcesHumaines
+  - AnalysteBusinessIntelligence
+  - ChefCouvoir
+  - ChefCuisine
+  - ChefProduction
+  - ChefProjet
+  - ArchitecteCloud
+  - CoachFitness
+  - Commercial
+  - CommercialSenior
+  - Comptable
+  - DataAnalyst
+  - DataEngineer
+  - DesignerUXUI
+  - DeveloppeurMobile
+  - DeveloppeurWeb
+  - IngenieurEmbarque
+  - Infirmier
+  - IngenieurReseau
+  - IngénieurDevOps
+  - IngénieurCybersécurité
+  - DataScientist
+  - ResponsableMarketing
+  - ScrumMaster
+  - SoftwareEngineer
+  - SpécialisteMarketingDigital
+  - SpécialisteProductionAnimale
+  - TechnicienMaintenanceIndustrielle
+  - TechnicoCommercial
+  - Inscription_Entreprise
+  - Informations_Inscription
+  - Connexion_Réseaux_Sociaux
+  - Publication_Offre
+  - Informations_Offre
+  - Offre_Multiples_Postes
+  - Filtrer_Offres
+  - Republier_Offre_Expirée
+  - Republier_Offre_Archivée
+  - Modifier_Statut_Offre
+  - Supprimer_Offre
+  - Offre_En_Attente
+  - Offre_Archivée
+  - Offre_Expirée
+  - Offre_Programmée
+  - Visibilité_Offres
+  - Visibilité_Candidats
+  - Nombre_Offres
+  - Créer_Test
+  - Accéder_Tests
+  - Voir_Candidats_Test
+  - Consulter_Résultats_Test
+  - Consulter_Scores_Candidats
+  - Intégrer_Test_Offre
+  - Envoyer_Test_Email
+  - Partager_Test
+  - Lien_Test
+  - Temps_Création_Test
+  - Différences_Tests
+
+responses:
+
+
+  utter_salut:
+  - text: "Salut ! Comment ça va ?"
+
+  utter_heureux:
+  - text: "Super, continuez !"
+ 
+  utter_malheureux:
+  - text: "Oh, je suis vraiment désolé de vous entendre dire ça. Essayez de faire des choses que vous aimez pour vous remonter le moral."
+
+  utter_aurevoir:
+  - text: "Au revoir"
+
+  utter_jesuisunChatBot:
+  - text: "Je suis un ChatBot, crée par Rec Inov."
+
+  utter_QuestionEntretien:
+  - text: "1. Parlez-moi de vous 
+           2. Que savez-vous de notre entreprise ? 
+           3. En quoi le poste vous intéresse-t-il ?
+           4. Exposez-moi un projet professionnel dont vous êtes particulièrement fier et inversement 
+           5. Comment envisagez-vous votre carrière ? 
+           6. Pourquoi êtes-vous le candidat idéal ? 
+           7. Êtes-vous un leader ? 
+           8. Parlez-moi de votre ancien employeur 
+           9. Quelles sont vos prétentions salariales ? 
+           10. Avez-vous des questions ? 
+           11.Quels sont vos points faibles ? "
+  utter_AgentLogistique:
+  - text: "titre_poste : Agent(e) Logistique, 
+ description_poste : Responsable de la gestion des flux de marchandises et des opérations logistiques dans les entrepôts ou les usines.
+ Implique la réception, le stockage, la préparation des commandes et l'expédition des produits. 
+ responsabilites_principales: [Réception et stockage des marchandises,Préparation des commandes,Gestion des inventaires,Coordination des expéditions]"
+  utter_IngénieurIntelligenceArtificielle:
+  - text: "titre_poste: Ingénieur en Intelligence Artificielle, 
+ description_poste: Responsable de la conception, du développement et du déploiement de systèmes et d'applications basés sur l'intelligence artificielle,
+ tels que les chatbots, les systèmes de recommandation et les assistants virtuels. 
+ responsabilites_principales: [ Développement d'algorithmes d'IA, Entraînement de modèles d'apprentissage automatique, Intégration de l'IA dans les produits et services, Optimisation des performances des systèmes d'IA]"
+  utter_AnalysteMarché:
+  - text: "titre_poste: Analyste de Marché, 
+ description_poste: Responsable de l'analyse des tendances du marché, des comportements des consommateurs et des performances des produits ou services d'une entreprise.
+ Implique la collecte de données, l'analyse de la concurrence et la recommandation de stratégies marketing. 
+ responsabilites_principales: [Analyse des tendances du marché,Étude des comportements des consommateurs,Analyse de la concurrence,Recommandation de stratégies marketing] "
+  utter_AnalysteFinancier:
+  - text: "titre_poste: Analyste Financier, 
+ description_poste: Responsable de l'analyse des données financières pour aider les entreprises à prendre des décisions d'investissement et de gestion.
+ Implique la collecte de données financières, l'analyse des performances, la préparation de rapports et la recommandation de stratégies financières. 
+ responsabilites_principales: [Collecte et analyse de données financières,Évaluation des performances financières,Préparation de rapports et de présentations,Recommandation de stratégies financières]"
+  utter_AssistantRessourcesHumaines:
+  - text: "titre_poste: Assistant Ressources Humaines, 
+ description_poste: Chargé de soutenir les activités opérationnelles du service des ressources humaines,
+ l'assistant RH participe à la gestion administrative du personnel. 
+ Il assure le suivi des dossiers des employés, la gestion des congés et des absences, ainsi que la préparation de la paie. 
+ En outre, il peut contribuer au recrutement en publiant des offres d'emploi, en triant les CV et en planifiant les entretiens. 
+ responsabilites_principales: [ Gestion administrative du personnel, Suivi des dossiers des employés, Gestion des congés et des absences, Préparation de la paie, Support au processus de recrutement]"
+  utter_AnalysteBusinessIntelligence:
+  - text: "titre_poste: Analyste en Business Intelligence, 
+ description_poste: Responsable de l'analyse des données d'entreprise pour fournir des informations stratégiques aux décideurs.
+ Implique la collecte, l'analyse et la présentation de données pour aider à prendre des décisions éclairées. 
+ responsabilites_principales: [Collecte et intégration de données,Analyse des données,Rapports et visualisation des données,Recommandation de stratégies commerciales]"
+  utter_ChefCouvoir:
+  - text: "titre_poste: Chef Couvoir, 
+ description_poste: Responsable de la gestion et de la supervision d'un couvoir, le chef couvoir supervise l'ensemble des opérations liées à l'incubation et à l'élevage des poussins. 
+ Il planifie et coordonne les activités de production, veille au respect des normes de qualité et d'hygiène, et assure le suivi sanitaire du cheptel. 
+ Son rôle peut également inclure la gestion des ressources humaines, la gestion des stocks et des approvisionnements, ainsi que la mise en place de mesures d'amélioration continue. 
+ responsabilites_principales: [ Gestion et supervision des opérations de production, Respect des normes de qualité et d'hygiène, Suivi sanitaire du cheptel, Gestion des ressources humaines, Gestion des stocks et des approvisionnements, Mise en place de mesures d'amélioration continue]"
+  utter_ChefCuisine:
+  - text: "titre_poste : Chef de Cuisine, 
+ description_poste : Responsable de la planification des menus, de la supervision du personnel de cuisine et de la gestion des opérations dans une cuisine professionnelle. Implique la création de recettes, la gestion des stocks et le maintien des normes de sécurité alimentaire. 
+ responsabilites_principales : [Planification des menus,Supervision du personnel de cuisine,Gestion des stocks,Maintien des normes de sécurité alimentaire] "
+  utter_ChefProduction:
+  - text: "titre_poste : Chef de la Production. 
+ description_poste : En tant que Chef de la Production, vous serez responsable de la supervision et de la coordination des opérations de fabrication pour assurer la production efficace et de haute qualité des biens de l'entreprise.
+ Vous dirigerez une équipe pour atteindre les objectifs de production, tout en maintenant les normes de sécurité, de qualité et d'efficacité. 
+ responsabilites_principales : [Planification de la production , Gestion des opérations , Optimisation des processus , Gestion des ressources humaines , Assurance qualité , Gestion des stocks , Veiller à la sécurité des employés et à la conformité aux normes de sécurité en vigueur dans l'usine de production , Préparer des rapports sur les performances de production, suivre les indicateurs clés de performance et proposer des actions correctives si nécessaire.]"
+  utter_ChefProjet:
+  - text: "titre_poste: Chef de Projet, 
+ description_poste: Responsable de la planification, de la coordination et de la gestion des projets dans divers domaines tels que la construction, l'ingénierie, le marketing, etc.
+ Implique la supervision des équipes, le respect des délais et des budgets. 
+ responsabilites_principales: [Planification et gestion de projet,Coordination des équipes,Suivi des délais et des budgets,Communication avec les parties prenantes]"
+  utter_ArchitecteCloud:
+  - text: "titre_poste: Architecte Cloud, 
+ description_poste: Responsable de la conception et de l'architecture de solutions basées sur le cloud pour répondre aux besoins en infrastructure informatique d'une entreprise.
+ Implique la conception de solutions évolutives, sécurisées et rentables. 
+ responsabilites_principales: [Conception d'architectures cloud,Migration vers le cloud,Sécurisation des environnements cloud,Optimisation des coûts]"
+  utter_CoachFitness:
+  - text: "titre_poste: Coach de Fitness, 
+ description_poste: Spécialiste de la remise en forme et de la santé, le coach de fitness conçoit et supervise des programmes d'entraînement personnalisés pour ses clients. 
+ Il dispense des cours collectifs ou individuels, motive et guide les participants dans l'atteinte de leurs objectifs de condition physique. 
+ En plus des exercices physiques, il peut également fournir des conseils en nutrition et en hygiène de vie. 
+ responsabilites_principales: [ Conception de programmes d'entraînement personnalisés, Animation de cours collectifs et individuels, Motivation et suivi des participants, Conseils en nutrition et en hygiène de vie]"
+  utter_Commercial:
+  - text: "titre_poste: Commercial, 
+ description_poste: Responsable de la prospection de nouveaux clients, de la gestion des relations avec les clients existants et de la réalisation des objectifs de vente.
+ Implique souvent des déplacements, la négociation et la conclusion de contrats. 
+ responsabilites_principales: [Prospection de nouveaux clients,Gestion des relations avec les clients,Négociation et conclusion de contrats,Atteinte des objectifs de vente]"
+  utter_CommercialSenior:
+  - text: "titre_poste: Commercial Senior, 
+ description_poste: Professionnel expérimenté dans le domaine de la vente et du commerce, le commercial senior est chargé de développer et de fidéliser un portefeuille clients. 
+ Il possède une connaissance approfondie du marché et des produits ou services de l'entreprise, lui permettant de conseiller efficacement les clients et de conclure des contrats de vente. 
+ Son rôle peut également inclure la supervision d'une équipe commerciale, la définition de stratégies de vente, et la participation à des négociations complexes. 
+ responsabilites_principales: [ Développement et fidélisation d'un portefeuille clients, Conseil aux clients et conclusion de contrats de vente, Supervision d'une équipe commerciale, Définition de stratégies de vente, Participation à des négociations complexes]"
+  utter_Comptable:
+  - text: "titre_poste: Comptable, 
+ description_poste: Responsable de la tenue des comptes d'une entreprise ou d'une organisation, le comptable enregistre et analyse les opérations financières. 
+ Il produit des états financiers, effectue les déclarations fiscales et sociales, et assure le suivi des paiements et des encaissements. 
+ Il peut également être impliqué dans la gestion budgétaire et la prévision financière. 
+ responsabilites_principales: [ Tenue de la comptabilité, Production des états financiers, Déclarations fiscales et sociales, Suivi des paiements et des encaissements, Gestion budgétaire et prévision financière]"
+  utter_DataAnalyst:
+  - text: "titre_poste: Data Analyst, 
+ description_poste: Spécialiste de l'analyse de données, le data analyst collecte, traite et analyse des ensembles de données pour en extraire des informations utiles et des tendances significatives. 
+ Il utilise des outils informatiques et des techniques d'analyse statistique pour interpréter les données et formuler des recommandations stratégiques. 
+ Il peut être impliqué dans divers domaines tels que le marketing, la finance, les opérations, ou la recherche scientifique. 
+ responsabilites_principales: [ Collecte et traitement des données, Analyse statistique et interprétation des résultats, Formulation de recommandations stratégiques, Collaboration avec d'autres équipes ou départements]"
+  utter_DataEngineer:
+  - text: "titre_poste: Data Engineer, 
+ description_poste: Spécialiste de la gestion et de l'ingénierie des données, le data engineer conçoit, développe et maintient l'infrastructure informatique nécessaire à la collecte, au stockage et au traitement des données. 
+ Il travaille sur des solutions de big data, des bases de données distribuées, et des pipelines de traitement de données. 
+ Son rôle est de garantir la disponibilité, la fiabilité et la performance des systèmes de données pour répondre aux besoins analytiques de l'entreprise. 
+ responsabilites_principales: [ Conception et développement d'infrastructures de données, Gestion de solutions de big data et de bases de données distribuées, Mise en place de pipelines de traitement de données, Optimisation des performances et de la fiabilité des systèmes de données]"
+  utter_DesignerUXUI:
+  - text: "titre_poste: Designer UX/UI, 
+ description_poste: En tant que Designer UX/UI, vous serez chargé de concevoir des interfaces utilisateur intuitives et attrayantes pour les produits numériques , Vous travaillerez en étroite collaboration avec les équipes de développement et de marketing pour créer des solutions innovantes. 
+ responsabilites_principales: [ Effectuer des recherches pour comprendre les besoins, les comportements et les préférences des utilisateurs, Conception de l'interface utilisateur (UI) ,Recueillir des retours d'utilisateurs et des données analytiques, tester les prototypes et itérer sur les conceptions pour améliorer continuellement l'expérience utilisateur ,Suivre les tendances en matière de design et de technologie, et explorer de nouvelles idées et approches pour innover dans la conception d'interfaces utilisateur ]"
+  utter_DeveloppeurMobile:
+  - text: "titre_poste: Développeur Mobile, 
+ description_poste: Spécialiste du développement d'applications mobiles, le développeur mobile conçoit, développe et optimise des applications pour les appareils mobiles tels que les smartphones et les tablettes. 
+ Il utilise des langages de programmation et des frameworks adaptés aux plateformes mobiles, tels que Java/Kotlin pour Android ou Swift/Objective-C pour iOS. 
+ Son rôle peut inclure la conception d'interfaces utilisateur, l'intégration de fonctionnalités avancées (comme la géolocalisation ou les notifications push), et la gestion des performances et de la sécurité des applications. 
+ responsabilites_principales: [ Conception et développement d'applications mobiles, Utilisation de langages de programmation adaptés aux plateformes mobiles, Intégration de fonctionnalités avancées, Gestion de la performance et de la sécurité]"
+  utter_DeveloppeurWeb:
+  - text: "titre_poste: Développeur Web, 
+ description_poste: Chargé de concevoir, développer et maintenir des applications web, le développeur web utilise des langages de programmation et des technologies web pour créer des sites internet et des applications en ligne. 
+ Il peut travailler sur différents aspects du développement web, tels que la programmation côté client (front-end) et côté serveur (back-end), le design web, ou encore l'intégration de bases de données. 
+ Son rôle est de garantir la fonctionnalité, la performance et la sécurité des applications qu'il développe. 
+ responsabilites_principales: [ Conception et développement d'applications web, Programmation côté client (front-end) et côté serveur (back-end), Intégration de bases de données, Optimisation de la performance et de la sécurité]"
+  utter_IngenieurEmbarque:
+  - text: "titre_poste: Ingénieur Embarqué, 
+ description_poste: Expert en développement de systèmes embarqués, l'ingénieur embarqué conçoit et développe des logiciels et des systèmes électroniques intégrés dans des dispositifs ou des équipements. 
+ Il travaille souvent sur des projets nécessitant une compréhension approfondie du matériel et des contraintes liées à l'embarquement. 
+ Son rôle peut inclure la programmation bas niveau, l'optimisation des ressources matérielles, et la validation des systèmes embarqués dans des environnements spécifiques. 
+ responsabilites_principales: [ Conception et développement de systèmes embarqués, Programmation bas niveau, Optimisation des ressources matérielles, Validation des systèmes embarqués]"
+  utter_ Infirmier:
+  - text: "titre_poste: Infirmier(ière), 
+ description_poste: Responsable de fournir des soins infirmiers aux patients dans divers environnements de soins de santé tels que les hôpitaux, les cliniques, les maisons de retraite, etc.
+ Implique la surveillance des patients, l'administration de médicaments et les soins aux blessures. 
+ responsabilites_principales: [Surveillance des patients,Administration de médicaments,Soins aux blessures,Collaboration avec l'équipe médicale "
+  utter_IngenieurReseau:
+  - text: "titre_poste: Ingénieur Réseau, 
+ description_poste: Spécialiste des infrastructures réseau, l'ingénieur réseau conçoit, déploie, maintient et sécurise les réseaux informatiques d'une organisation. 
+ Il participe à la définition de l'architecture réseau, configure les équipements (routeurs, commutateurs, pare-feu), et surveille les performances du réseau. 
+ Son rôle peut également inclure la résolution des incidents, la mise en place de solutions de haute disponibilité, et la gestion des projets d'extension ou de migration réseau. 
+ responsabilites_principales: [ Conception, déploiement, maintenance et sécurisation des réseaux informatiques, Configuration des équipements réseau, Surveillance des performances du réseau, Résolution des incidents, Gestion de projets d'extension ou de migration réseau]"
+  utter_IngénieurDevOps:
+  - text: "titre_poste: Ingénieur DevOps, 
+ description_poste: Responsable de la collaboration entre les équipes de développement et d'exploitation pour automatiser les processus de déploiement, de gestion des infrastructures et d'intégration continue afin d'améliorer l'efficacité et la fiabilité des systèmes logiciels. 
+ responsabilites_principales: [Automatisation des déploiements, Gestion des infrastructures, Intégration continue et déploiement continu (CI/CD), Surveillance et résolution des problèmes]"
+  utter_IngénieurCybersécurité:
+  - text: "titre_poste: Ingénieur en Cybersécurité, 
+ description_poste: Responsable de la protection des systèmes informatiques et des réseaux contre les cybermenaces.
+ Implique la mise en œuvre de mesures de sécurité, la surveillance des vulnérabilités et la réponse aux incidents de sécurité. 
+ responsabilites_principales: [ Mise en œuvre de mesures de sécurité, Surveillance des menaces et des vulnérabilités,Gestion des incidents de sécurité,Sensibilisation à la sécurité]"
+  utter_DataScientist:
+  - text: "titre_poste: Data Scientist, 
+ description_poste: Expert en analyse de données, le data scientist exploite les ensembles de données pour extraire des informations, des modèles prédictifs et des tendances significatives. 
+ Il utilise des techniques avancées de statistique, de machine learning et de data mining pour résoudre des problèmes complexes et prendre des décisions éclairées. 
+ Son rôle peut inclure la conception d'algorithmes, la création de modèles prédictifs, et la visualisation des résultats pour les rendre compréhensibles aux parties prenantes. 
+ responsabilites_principales: [ Analyse de données et extraction d'informations utiles, Développement de modèles prédictifs, Utilisation de techniques avancées de statistique et de machine learning, Visualisation et communication des résultats]"
+  utter_ResponsableMarketing:
+  - text: "titre_poste: Responsable Marketing, 
+ description_poste: Chargé de définir et de mettre en œuvre la stratégie marketing d'une entreprise, le responsable marketing supervise les activités liées à la promotion des produits ou services. 
+ Il analyse le marché, identifie les tendances, et élabore des plans d'action pour atteindre les objectifs de vente. 
+ Il coordonne les campagnes publicitaires, gère les relations avec les agences de communication, et mesure l'efficacité des actions marketing. 
+ responsabilites_principales: [ Définition de la stratégie marketing, Analyse du marché et des tendances, Élaboration de plans d'action, Coordination des campagnes publicitaires, Mesure de l'efficacité des actions marketing]"
+  utter_ScrumMaster:
+  - text: "titre_poste: Gestionnaire de Projet Agile/Scrum Master, 
+ description_poste: Responsable de la planification, de la coordination et de la gestion des projets logiciels en utilisant des méthodologies agiles telles que Scrum.
+ Facilite les processus et les réunions Scrum pour assurer le bon déroulement du projet. 
+ responsabilites_principales: [ Planification et coordination de projet, Facilitation des réunions Scrum, Suivi de l'avancement du projet, Résolution des obstacles et des problèmes ]"
+  utter_SoftwareEngineer:
+  - text: "titre_poste: Software Engineer, 
+ description_poste: Professionnel de l'ingénierie logicielle, le software engineer conçoit, développe, teste et maintient des logiciels et des systèmes informatiques. 
+ Il utilise des langages de programmation, des frameworks et des outils de développement pour créer des applications et des solutions logicielles répondant aux besoins des utilisateurs et des entreprises. 
+ Son rôle peut inclure la conception d'architectures logicielles, l'optimisation des performances, et la collaboration avec d'autres membres de l'équipe de développement. 
+ responsabilites_principales: [ Conception, développement, test et maintenance de logiciels, Utilisation de langages de programmation et d'outils de développement, Conception d'architectures logicielles, Optimisation des performances, Collaboration avec l'équipe de développement]"
+  utter_SpécialisteMarketingDigital:
+  - text: "titre_poste: Spécialiste en Marketing Digital, 
+ description_poste: Responsable de la planification, de l'exécution et de l'analyse de stratégies de marketing en ligne pour promouvoir les produits ou services d'une entreprise.
+ Implique souvent l'utilisation de divers canaux numériques tels que les médias sociaux, le référencement, la publicité en ligne, etc. 
+ responsabilites_principales: [ Développement de stratégies de marketing numérique, Gestion des campagnes publicitaires en ligne, Analyse des performances et optimisation, Veille concurrentielle et suivi des tendances]"
+  utter_SpécialisteProductionAnimale:
+  - text: "titre_poste: Spécialiste en Production Animale, 
+ description_poste: Responsable de la gestion et de l'optimisation des pratiques d'élevage et de production animale. 
+ Travaillant souvent dans des fermes, des exploitations agricoles ou des entreprises agroalimentaires, le spécialiste en production animale supervise la santé, la nutrition, le logement et la reproduction des animaux d'élevage. 
+ Il conçoit et met en œuvre des programmes de santé animale, veille au bien-être des animaux et cherche à améliorer les rendements de production tout en respectant les normes environnementales et éthiques. 
+ responsabilites_principales: [ Gestion de la santé et du bien-être des animaux d'élevage, Conception et mise en œuvre de programmes de nutrition et de reproduction, Surveillance des conditions de logement et de l'environnement, Optimisation des rendements de production, Conformité aux normes environnementales et éthiques]"
+  utter_TechnicienMaintenanceIndustrielle:
+  - text: "titre_poste: Technicien en Maintenance Industrielle, 
+ description_poste: Responsable de l'entretien préventif et correctif des équipements industriels, le technicien en maintenance industrielle veille au bon fonctionnement des machines et des outils de production. 
+ Il effectue des diagnostics, répare les équipements défectueux et propose des améliorations pour optimiser la performance et la sécurité des installations. 
+ En plus des tâches de maintenance, il peut être amené à réaliser des opérations de réglage, de montage et de démontage. 
+ responsabilites_principales: [ Réalisation de la maintenance préventive et corrective, Diagnostic des pannes et réparation des équipements, Proposition d'améliorations pour optimiser la performance et la sécurité, Réglage, montage et démontage des machines]"
+  utter_TechnicoCommercial:
+  - text: "titre_poste: Technico-commercial, 
+ description_poste: Responsable de la vente de produits ou de services techniques, le technico-commercial allie des compétences techniques à des aptitudes commerciales. 
+ Il identifie les besoins des clients, propose des solutions adaptées, et négocie les conditions de vente. 
+ Il assure également un suivi après-vente et contribue au développement du portefeuille client. 
+ responsabilites_principales: [ Analyse des besoins des clients, Proposition de solutions techniques, Négociation des conditions commerciales, Suivi après-vente, Développement du portefeuille client]"
+
+ 
+  utter_Inscription_Entreprise:
+  - text: "Pour vous inscrire en tant qu'entreprise sur Rec_Inov, rendez-vous sur notre site web et cliquez sur le bouton 'Inscription Entreprise'. Remplissez le formulaire d'inscription avec les informations de votre entreprise, puis soumettez-le."
+  utter_Informations_Inscription:
+  - text: "Pour vous inscrire en tant qu'entreprise sur Rec_Inov, vous devrez fournir des informations telles que le nom de l'entreprise, l’adresse email, le secteur d'activité et votre mot de passe."
+  utter_Connexion_Réseaux_Sociaux:
+  - text: "Pour le moment, la connexion ou l'inscription sur Rec_Inov ne sont pas disponibles via d'autres moyens que leur propre processus d'inscription."
+  utter_Publication_Offre:
+  - text: "Pour publier une offre d'emploi sur Rec_Inov, connectez-vous à votre compte entreprise, puis cliquez sur le bouton 'ajouter un offre'. Remplissez les détails de l'offre et soumettez-la pour validation."
+  utter_Informations_Offre:
+  - text: "Vous devez inclure des informations telles que le titre du poste, la description du poste, les qualifications requises, les avantages offerts, la localisation, etc."
+  utter_Offre_Multiples_Postes:
+  - text: "Vous pouvez publier une offre d'emploi pour plusieurs postes en spécifiant le nombre de postes disponibles dans les détails de l'offre."
+  utter_Filtrer_Offres:
+  - text: "Oui, vous pouvez filtrer les offres par le titre de l’emploi, la date de création de l’offre et le type de statut (Expiré, Publié, En attente, etc.)."
+  utter_Republier_Offre_Expirée:
+  - text: "Pour publier une offre déjà expirée, vous pouvez cliquer sur l'action 'Republier', puis modifier la date d'expiration de l’offre et enregistrer les modifications."
+  utter_Republier_Offre_Archivée:
+  - text: "Pour publier une offre déjà archivée, vous pouvez cliquer sur l'action 'Republier', puis modifier la date d'expiration de l’offre et enregistrer les modifications."
+  utter_Modifier_Statut_Offre:
+  - text: "Si votre statut est expiré ou archivé, vous pouvez cliquer sur l'action 'Republier', puis modifier la date d'expiration de l’offre et enregistrer. Si votre statut est en attente, cliquez sur le bouton 'En attente' et confirmez la publication de l’offre. Si votre statut est publié, vous pouvez l’archiver ou le mettre en attente en cliquant sur le bouton de statut 'publié'."
+  utter_Supprimer_Offre:
+  - text: "Vous pouvez archiver une offre en cliquant sur l'icône de l’archive devant l’offre. Dans ce cas, votre offre ne sera pas visible pour les autres."
+  utter_Offre_En_Attente:
+  - text: "Une offre de statut en attente est une offre qui a été créée mais qui n'a pas encore été publiée. Elle est en attente de validation ou de confirmation pour être rendue publique."
+  utter_Offre_Archivée:
+  - text: "Une offre de statut archivé est une offre qui a été retirée de la liste des offres actives et déplacée dans les archives. Elle n'est plus visible pour les utilisateurs mais peut être restaurée si nécessaire."
+  utter_Offre_Expirée:
+  - text: "Une offre de statut expiré est une offre dont la période de validité ou de publication est arrivée à son terme. Elle n'est plus active et n'est plus visible pour les utilisateurs."
+  utter_Offre_Programmée:
+  - text: "Une offre de statut programmé est une offre dont la publication est planifiée pour une date future. Elle n'est pas encore active mais sera publiée automatiquement à la date programmée."
+  utter_Visibilité_Offres:
+  - text: "Vos offres sont visibles uniquement pour les candidats ayant un CV proche des exigences de vos offres."
+  utter_Visibilité_Candidats:
+  - text: "Vos offres sont visibles uniquement pour les candidats ayant un CV proche des exigences de vos offres."
+  utter_Nombre_Offres:
+  - text: "Vous pouvez vérifier le nombre d'offres sur notre plateforme en consultant la page d'accueil du site. Vous y trouverez nos statistiques, y compris le nombre de candidats, d'entreprises, d'offres et également les candidatures dans l'ensemble du site."
+  utter_Créer_Test:
+  - text: "Allez à la navbar sous 'test compétence', cliquez sur 'créer test', vous pouvez le créer à partir d’un formulaire manuellement ou utiliser la base de données de Rec_Inov pour trouver une grande variété de questions dans différents domaines ou vous pouvez également importer des questions depuis votre appareil."
+  utter_Accéder_Tests:
+  - text: "Pour accéder aux tests, vous trouverez dans la navbar 'liste tests'."
+  utter_Voir_Candidats_Test:
+  - text: "Pour consulter les résultats des tests, devant le tableau des tests cliquez sur 'suivi des tests' et vous trouverez la liste des candidats qui ont passé le test et leurs scores."
+  utter_Consulter_Résultats_Test:
+  - text: "Pour consulter les résultats des tests, devant le tableau des tests cliquez sur 'suivi des tests' et vous trouverez la liste des candidats qui ont passé le test et leurs scores."
+  utter_Consulter_Scores_Candidats:
+  - text: "Pour consulter les résultats des tests, devant le tableau des tests cliquez sur 'suivi des tests' et vous trouverez la liste des candidats qui ont passé le test et leurs scores."
+  utter_Intégrer_Test_Offre:
+  - text: "Pour intégrer un test dans une offre, allez dans les détails de l'offre et sélectionnez l'option pour ajouter un test à partir de votre liste de tests créés."
+  utter_Envoyer_Test_Email:
+  - text: "Chaque test peut être partagé en générant un lien ou par email, il suffit donc de cliquer sur l’action de partage dans la ligne de test que vous souhaitez envoyer."
+  utter_Partager_Test:
+  - text: "Chaque test peut être partagé en générant un lien ou par email, il suffit donc de cliquer sur l’action de partage dans la ligne de test que vous souhaitez envoyer."
+  utter_Lien_Test:
+  - text: "Chaque test peut être partagé en générant un lien ou par email, il suffit donc de cliquer sur l’action de partage dans la ligne de test que vous souhaitez envoyer."
+  utter_Temps_Création_Test:
+  - text: "Le temps nécessaire pour créer un test dépend de la complexité et du nombre de questions que vous souhaitez inclure. Utiliser la base de données de Rec_Inov peut accélérer le processus."
+  utter_Différences_Tests:
+  - text: "Les tests générés manuellement vous permettent de créer des questions personnalisées, tandis que ceux générés via la base de données de Rec_Inov offrent des questions préétablies dans différents domaines, facilitant ainsi la création rapide de tests."
+
+
+
+session_config:
+  session_expiration_time: 120
+  carry_over_slots_to_new_session: true 

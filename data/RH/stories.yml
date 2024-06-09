@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+
+
+- story: happy path
+  steps:
+  - intent: salut
+  - action: utter_salut
+  - intent: mood_heureux
+  - action: utter_heureux
+
+- story: sad path  
+  steps:
+  - intent: salut
+  - action: utter_salut
+  - intent: mood_malheureux
+  - action: utter_malheureux
+  - intent: affirmer
+  - action: utter_heureux 
+
+

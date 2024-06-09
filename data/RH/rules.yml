@@ -1,0 +1,269 @@
+version: "3.1"
+
+rules:
+
+
+- rule: Say aurevoir anytime the user says aurevoir
+  steps: 
+  - intent: aurevoir
+  - action: utter_aurevoir
+
+- rule: Say jesuisunChatBot anytime the user challenges
+  steps:
+  - intent: jesuisunChatBot
+  - action: utter_jesuisunChatBot
+
+- rule: Say QuestionEntretien's information
+  steps: 
+  - intent: QuestionEntretien
+  - action: utter_QuestionEntretien 
+
+- rule: Say AgentLogistique's information
+  steps: 
+  - intent: AgentLogistique
+  - action: utter_AgentLogistique 
+
+- rule: Say IngénieurIntelligenceArtificielle's information
+  steps: 
+  - intent: IngénieurIntelligenceArtificielle
+  - action: utter_IngénieurIntelligenceArtificielle 
+- rule: Say AnalysteMarché's information
+  steps: 
+  - intent: AnalysteMarché
+  - action: utter_AnalysteMarché 
+- rule: Say AnalysteFinancier's information
+  steps: 
+  - intent: AnalysteFinancier
+  - action: utter_AnalysteFinancier 
+- rule: Say AssistantRessourcesHumaines's information
+  steps: 
+  - intent: AssistantRessourcesHumaines
+  - action: utter_AssistantRessourcesHumaines 
+- rule: Say AnalysteBusinessIntelligence's information
+  steps: 
+  - intent: AnalysteBusinessIntelligence
+  - action: utter_AnalysteBusinessIntelligence 
+- rule: Say ChefCouvoir's information
+  steps: 
+  - intent: ChefCouvoir
+  - action: utter_ChefCouvoir 
+- rule: Say ChefCuisine's information
+  steps: 
+  - intent: ChefCuisine
+  - action: utter_ChefCuisine 
+- rule: Say ChefProduction's information
+  steps: 
+  - intent: ChefProduction
+  - action: utter_ChefProduction 
+- rule: Say ChefProjet's information
+  steps: 
+  - intent: ChefProjet
+  - action: utter_ChefProjet 
+- rule: Say ArchitecteCloud's information
+  steps: 
+  - intent: ArchitecteCloud
+  - action: utter_ArchitecteCloud 
+- rule: Say CoachFitness's information
+  steps: 
+  - intent: CoachFitness
+  - action: utter_CoachFitness 
+- rule: Say Commercial's information
+  steps: 
+  - intent: Commercial
+  - action: utter_Commercial 
+- rule: Say CommercialSenior's information
+  steps: 
+  - intent: CommercialSenior
+  - action: utter_CommercialSenior 
+- rule: Say Comptable's information
+  steps: 
+  - intent: Comptable
+  - action: utter_Comptable 
+- rule: Say DataAnalyst's information
+  steps: 
+  - intent: DataAnalyst
+  - action: utter_DataAnalyst 
+- rule: Say DataEngineer's information
+  steps: 
+  - intent: DataEngineer
+  - action: utter_DataEngineer 
+- rule: Say DesignerUXUI's information
+  steps: 
+  - intent: DesignerUXUI
+  - action: utter_DesignerUXUI 
+- rule: Say DeveloppeurMobile's information
+  steps: 
+  - intent: DeveloppeurMobile
+  - action: utter_DeveloppeurMobile 
+- rule: Say DeveloppeurWeb's information
+  steps: 
+  - intent: DeveloppeurWeb
+  - action: utter_DeveloppeurWeb 
+- rule: Say IngenieurEmbarque's information
+  steps: 
+  - intent: IngenieurEmbarque
+  - action: utter_IngenieurEmbarque 
+- rule: Say  Infirmier's information
+  steps: 
+  - intent:  Infirmier
+  - action: utter_ Infirmier 
+- rule: Say IngenieurReseau's information
+  steps: 
+  - intent: IngenieurReseau
+  - action: utter_IngenieurReseau 
+- rule: Say IngénieurDevOps's information
+  steps: 
+  - intent: IngénieurDevOps
+  - action: utter_IngénieurDevOps 
+- rule: Say IngénieurCybersécurité's information
+  steps: 
+  - intent: IngénieurCybersécurité
+  - action: utter_IngénieurCybersécurité 
+- rule: Say DataScientist's information
+  steps: 
+  - intent: DataScientist
+  - action: utter_DataScientist 
+- rule: Say ResponsableMarketing's information
+  steps: 
+  - intent: ResponsableMarketing
+  - action: utter_ResponsableMarketing 
+- rule: Say ScrumMaster's information
+  steps: 
+  - intent: ScrumMaster
+  - action: utter_ScrumMaster 
+- rule: Say SoftwareEngineer's information
+  steps: 
+  - intent: SoftwareEngineer
+  - action: utter_SoftwareEngineer 
+- rule: Say SpécialisteMarketingDigital's information
+  steps: 
+  - intent: SpécialisteMarketingDigital
+  - action: utter_SpécialisteMarketingDigital 
+- rule: Say SpécialisteProductionAnimale's information
+  steps: 
+  - intent: SpécialisteProductionAnimale
+  - action: utter_SpécialisteProductionAnimale 
+- rule: Say TechnicienMaintenanceIndustrielle's information
+  steps: 
+  - intent: TechnicienMaintenanceIndustrielle
+  - action: utter_TechnicienMaintenanceIndustrielle 
+- rule: Say TechnicoCommercial's information
+  steps: 
+  - intent: TechnicoCommercial
+  - action: utter_TechnicoCommercial 
+- rule: Say Inscription_Entreprise's information
+  steps: 
+  - intent: Inscription_Entreprise
+  - action: utter_Inscription_Entreprise 
+- rule: Say Informations_Inscription's information
+  steps: 
+  - intent: Informations_Inscription
+  - action: utter_Informations_Inscription 
+- rule: Say Connexion_Réseaux_Sociaux's information
+  steps: 
+  - intent: Connexion_Réseaux_Sociaux
+  - action: utter_Connexion_Réseaux_Sociaux 
+- rule: Say Publication_Offre's information
+  steps: 
+  - intent: Publication_Offre
+  - action: utter_Publication_Offre 
+- rule: Say Informations_Offre's information
+  steps: 
+  - intent: Informations_Offre
+  - action: utter_Informations_Offre 
+- rule: Say Offre_Multiples_Postes's information
+  steps: 
+  - intent: Offre_Multiples_Postes
+  - action: utter_Offre_Multiples_Postes 
+- rule: Say Filtrer_Offres's information
+  steps: 
+  - intent: Filtrer_Offres
+  - action: utter_Filtrer_Offres 
+- rule: Say Republier_Offre_Expirée's information
+  steps: 
+  - intent: Republier_Offre_Expirée
+  - action: utter_Republier_Offre_Expirée 
+- rule: Say Republier_Offre_Archivée's information
+  steps: 
+  - intent: Republier_Offre_Archivée 
+  - action: utter_Republier_Offre_Archivée  
+- rule: Say Modifier_Statut_Offre's information
+  steps: 
+  - intent: Modifier_Statut_Offre
+  - action: utter_Modifier_Statut_Offre 
+- rule: Say Supprimer_Offre's information
+  steps: 
+  - intent: Supprimer_Offre
+  - action: utter_Supprimer_Offre 
+- rule: Say Offre_En_Attente's information
+  steps: 
+  - intent: Offre_En_Attente
+  - action: utter_Offre_En_Attente 
+- rule: Say Offre_Archivée's information
+  steps: 
+  - intent: Offre_Archivée
+  - action: utter_Offre_Archivée 
+- rule: Say Offre_Expirée's information
+  steps: 
+  - intent: Offre_Expirée
+  - action: utter_Offre_Expirée 
+- rule: Say Offre_Programmée's information
+  steps: 
+  - intent: Offre_Programmée
+  - action: utter_Offre_Programmée 
+- rule: Say Visibilité_Offres's information
+  steps: 
+  - intent: Visibilité_Offres
+  - action: utter_Visibilité_Offres 
+- rule: Say Visibilité_Candidats's information
+  steps: 
+  - intent: Visibilité_Candidats
+  - action: utter_Visibilité_Candidats 
+- rule: Say Nombre_Offres's information
+  steps: 
+  - intent: Nombre_Offres
+  - action: utter_Nombre_Offres 
+- rule: Say Créer_Test's information
+  steps: 
+  - intent: Créer_Test
+  - action: utter_Créer_Test 
+- rule: Say Accéder_Tests's information
+  steps: 
+  - intent: Accéder_Tests
+  - action: utter_Accéder_Tests 
+- rule: Say Voir_Candidats_Test's information
+  steps: 
+  - intent: Voir_Candidats_Test
+  - action: utter_Voir_Candidats_Test 
+- rule: Say Consulter_Résultats_Test's information
+  steps: 
+  - intent: Consulter_Résultats_Test
+  - action: utter_Consulter_Résultats_Test 
+- rule: Say Consulter_Scores_Candidats's information
+  steps: 
+  - intent: Consulter_Scores_Candidats
+  - action: utter_Consulter_Scores_Candidats 
+- rule: Say Intégrer_Test_Offre's information
+  steps: 
+  - intent: Intégrer_Test_Offre
+  - action: utter_Intégrer_Test_Offre 
+- rule: Say Envoyer_Test_Email's information
+  steps: 
+  - intent: Envoyer_Test_Email
+  - action: utter_Envoyer_Test_Email 
+- rule: Say Partager_Test's information
+  steps: 
+  - intent: Partager_Test
+  - action: utter_Partager_Test 
+- rule: Say Lien_Test's information
+  steps: 
+  - intent: Lien_Test
+  - action: utter_Lien_Test 
+- rule: Say Temps_Création_Test's information
+  steps: 
+  - intent: Temps_Création_Test
+  - action: utter_Temps_Création_Test 
+- rule: Say Différences_Tests's information
+  steps: 
+  - intent: Différences_Tests
+  - action: utter_Différences_Tests 

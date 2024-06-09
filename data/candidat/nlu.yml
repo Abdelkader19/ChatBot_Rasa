@@ -1,0 +1,391 @@
+version: "3.1"
+
+nlu:
+
+- intent: salut
+  examples: |
+    - Salut
+    - Bonjour
+    - salem
+    - Ahla
+    - bjr
+    - Bonsoir
+    - 3aslema
+    - Allons-y
+    - slt
+    - bsr
+    - Bon après-midi
+
+- intent: aurevoir
+  examples: |
+    - au revoir
+    - à plus tard
+    - bonne nuit
+    - beslema
+    - bonne journée
+    - à la prochaine
+    - bye bye
+    - à bientôt
+    - bye
+     
+
+
+- intent: affirmer
+  examples: |
+    - oui
+    - ouais
+    - effectivement
+    - bien sûr
+    - ça semble bien
+    - correct
+    - c'est ca 
+    - bien 
+    - ok
+
+- intent: refuser
+  examples: |
+    - non
+    - nn
+    - jamais
+    - je ne pense pas
+    - je n'aime pas ça
+    - pas du tout
+    - pas vraiment 
+    - la 
+
+- intent: mood_heureux
+  examples: |
+    - parfait
+    - génial
+    - incroyable
+    - merveilleux
+    - je me sens très bien
+    - je vais bien
+    - je suis incroyable 
+    - super excité
+    - extrêmement bien
+    - tellement parfait
+    - tellement bien
+    
+
+- intent: mood_malheureux
+  examples: |
+    - Je suis malheureux
+    - je ne me sens pas très bien
+    - je suis déçu
+    - super malheureux
+    - Je suis tellement malheureux
+    - triste
+    - très triste
+    - malheureux
+    - pas bon
+    - pas très bien
+    - extrêmement malheureux
+    - tellement malheureux
+    - si triste
+
+- intent: jesuisunChatBot
+  examples: |
+    - Etes-vous un robot?
+    - Êtes-vous un être humain?
+    - est-ce que je parle à un bot ?
+    - est-ce que je parle à un humain ?
+
+- intent: CompGenieLogiciel
+  examples: |
+    - quels sont les compétences nécessaires pour le poste d'ingénieur en Génie logiciel?
+    - Quelles compétences sont requises pour le poste d'ingénieur en génie logiciel ?
+    - Quels sont les critères de compétence essentiels pour l'ingénieur en génie logiciel ?
+- intent: CompMaterielInformatique
+  examples: |
+    - quels sont les compétences nécessaires pour le poste Ingénieur matériel informatique ?
+    - Quelles compétences sont indispensables pour occuper le poste d'Ingénieur en matériel informatique ?
+    - Quels sont les savoir-faire nécessaires pour être Ingénieur en matériel informatique ?
+- intent: CompSysEmabarque 
+  examples: |
+    - quels sont les compétences nécessaires pour le poste Ingénieur en systèmes embarqués?
+    - Quelles sont les compétences requises pour occuper le poste d'Ingénieur en systèmes embarqués ?
+    - Quels sont les savoir-faire indispensables pour être Ingénieur en systèmes embarqués ?
+- intent: CompFPGA
+  examples: |
+    - quels sont les compétences nécessaires pour le poste Ingénieur FPGA/ASIC ?
+    - Quelles sont les compétences requises pour occuper le poste d'Ingénieur FPGA/ASIC  ?
+    - Quels sont les savoir-faire indispensables pour être Ingénieur FPGA/ASIC  ?
+- intent: CompArchiSys
+  examples: |
+    - quels sont les compétences nécessaires pour le poste architecte système ?
+    - Quelles sont les compétences requises pour occuper le poste d'architecte système  ?
+    - Quels sont les savoir-faire indispensables pour être architecte système  ?
+- intent: CompdevApplication
+  examples: |
+    -  quels sont les compétences nécessaires pour le poste développeur d'applications  ?
+    - Quelles sont les compétences requises pour occuper le poste de développeur d'applications   ?
+    - Quels sont les savoir-faire indispensables pour être un développeur d'applications  ?
+- intent: CompSecuriteInformatique
+  examples: |
+    - quels sont les compétences nécessaires pour le poste analyste en sécurité informatique ?
+    - Quelles sont les compétences requises pour occuper le poste d'analyste en sécurité informatique  ?
+    - Quels sont les savoir-faire indispensables pour être analyste en sécurité informatique  ?
+- intent: CompAdminBD
+  examples: |
+    - quels sont les compétences nécessaires pour le poste administrateur de bases de données  ?
+    - Quelles sont les compétences requises pour occuper le poste d'administrateur de bases de données  ?
+    - Quels sont les savoir-faire indispensables pour administrateur de bases de données ?
+- intent: CompReseaux
+  examples: |
+    - quels sont les compétences nécessaires pour le poste ingénieur réseau  ?
+    - Quelles sont les compétences requises pour occuper le poste d' ingénieur réseau ?
+- intent: CompPorjetInfo
+  examples: |
+    - quels sont les compétences nécessaires pour le poste chef de projet informatique   ?
+    - Quelles sont les compétences requises pour occuper le poste de chef de projet informatique  ?
+    - Quels sont les savoir-faire indispensables pour un chef de projet informatique ?
+- intent: CompConcepSysNum
+  examples: |
+    - quels sont les compétences nécessaires pour le poste concepteur de systèmes numériques ?
+    - Quelles sont les compétences requises pour occuper le poste de  concepteur de systèmes numériques ?
+    - Quels sont les savoir-faire indispensables pour un  concepteur de systèmes numériques ?
+- intent: CompRobotiqque
+  examples: |
+    - quels sont les compétences nécessaires pour le poste concepteur d'Ingénieur en robotique ?
+    - Quelles sont les compétences requises pour occuper le poste d'Ingénieur en robotique  ?
+    - Quels sont les savoir-faire indispensables pour un Ingénieur en robotique?
+- intent: CompTestLogciel
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de testeur logiciel?
+    - Quelles sont les compétences requises pour occuper le poste de testeur logiciel?
+    - Quels sont les savoir-faire indispensables pour un testeur logiciel?
+- intent: CompResMarketing
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de responsable marketing?
+    - Quelles sont les compétences requises pour occuper le poste de responsable marketingl?
+    - Quels sont les savoir-faire indispensables pour un responsable marketing?
+- intent: CompRespAchat
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de responsable achat?
+    - Quelles sont les compétences requises pour occuper le poste de responsable achat?
+- intent: CompResVente
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de responsable vente?
+    - Quelles sont les compétences requises pour occuper le poste de responsable vente?
+    - Quels sont les savoir-faire indispensables pour un responsable vente?
+- intent: CompResLogistique
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de responsable logistique?
+    - Quelles sont les compétences requises pour occuper le poste de responsable logistique?
+    - Quels sont les savoir-faire indispensables pour un responsable logistique?
+- intent: CompResQualite
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de responsable qualité?
+    - Quelles sont les compétences requises pour occuper le poste de responsable qualité?
+    - Quels sont les savoir-faire indispensables pour un responsable qualité?
+- intent: CompResCRM
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de responsable relation client ?
+    - Quelles sont les compétences requises pour occuper le poste de responsable relation client ?
+    - Quels sont les savoir-faire indispensables pour un responsable relation client ?
+- intent: CompResProduction
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de responsable de production?
+    - Quelles sont les compétences requises pour occuper le poste de responsable de production?
+    - Quels sont les savoir-faire indispensables pour un responsable de production ?
+- intent: CompDevERP
+  examples: |
+    - quels sont les compétences nécessaires pour le poste de développeur ERP?
+    - Quelles sont les compétences requises pour occuper le poste de développeur ERP?
+    - Quels sont les savoir-faire indispensables pour un  développeur ERP ?
+- intent: CompGenieIndus
+  examples: |
+    - quels sont les compétences nécessaires pour le poste d'ingénieur en génie industriel?
+    - Quelles sont les compétences requises pour occuper le poste d'ingénieur en génie industriel?
+    - Quels sont les savoir-faire indispensables pour un ingénieur en génie industriel ?
+- intent: CompGenieElectrique
+  examples: |
+    - quels sont les compétences nécessaires pour le poste d'ingénieur en génie électrique ?
+    - Quelles sont les compétences requises pour occuper le poste d'ingénieur en génie électrique ?
+    - Quels sont les savoir-faire indispensables pour un ingénieur en génie électrique ?
+- intent: CompGenieCivil
+  examples: |
+    - quels sont les compétences nécessaires pour le poste d'ingénieur en génie civil ?
+    - Quelles sont les compétences requises pour occuper le poste d'ingénieur en génie civil ?
+    - Quels sont les savoir-faire indispensables pour un ingénieur en génie civil ?
+- intent: CompGenieMateriaux
+  examples: |
+    - quels sont les compétences nécessaires pour le poste d'ingénieur en génie des matériaux  ?
+    - Quelles sont les compétences requises pour occuper le poste d'ingénieur en génie des matériaux  ?
+    - Quels sont les savoir-faire indispensables pour un ingénieur en génie des matériaux ?
+- intent: CompGenieMecanique
+  examples: |
+    - quels sont les compétences nécessaires pour le poste d'ingénieur en génie des mécanique   ?
+    - Quelles sont les compétences requises pour occuper le poste d'ingénieur en génie des mécanique   ?
+    - Quels sont les savoir-faire indispensables pour un ingénieur en génie des mécanique  ?
+- intent: CompResComptable
+  examples: |
+    - quels sont les compétences nécessaires pour le poste d'un responsable comptabilité   ?
+    - Quelles sont les compétences requises pour occuper le poste d'un comptable ?
+    - Quels sont les savoir-faire indispensables pour un comptable ?
+- intent: ProcessPostEmploi
+  examples: |
+    - Quelles sont les étapes du processus de recrutement pour un poste d'emploi?
+    - Pouvez-vous décrire les différentes étapes du processus de recrutement pour un poste d'emploi ?
+    - Quels sont les différents stades du processus de sélection pour un poste d'emploi ?
+- intent: ProfilCandidature
+  examples: |
+    - Comment puis-je remplir la section 'Profil' de ma candidature?
+    - Comment puis-je compléter la section 'profil' de ma demande ?
+    - Quelles sont les étapes pour renseigner la section 'Profil' de ma candidature ? 
+- intent: DetailsProfil
+  examples: |
+    - Quelles informations dois-je inclure dans mon profil?
+    - Quels détails sont nécessaires pour compléter mon profil ?
+    - Quelles données devrais-je ajouter à mon profil ?
+- intent: ChampsObligatoiresProfil
+  examples: |
+    - Est-ce que tous les champs de la section 'Profil' sont obligatoires?
+    - Dois-je remplir tous les champs de la section 'Profil' obligatoirement ?
+    - Est-il nécessaire de renseigner chaque champ de la section 'Profil' ?
+- intent: DonneesPersonellesProfil
+  examples: |
+    - Y a-t-il des informations de profil que je ne dois pas partager?
+    - Quelles informations ne devrais-je pas divulguer dans mon profil ?
+    - Y a-t-il des données personnelles à éviter de mentionner dans la section 'Profil' ?
+- intent: ConfidentialiteInfoProfil
+  examples: |
+    - Comment assurer la confidentialité des informations de mon profil?
+    - Quelles mesures puis-je prendre pour protéger la confidentialité de mon profil ?
+    - Comment puis-je garantir que les informations de mon profil restent confidentielles ?
+- intent: CaracteresSpeciauxProfil
+  examples: |
+    - Que faire si mon nom contient des caractères spéciaux?Comment gérer les caractères spéciaux dans mon nom lors du remplissage du profil ?
+    - Que faire si mon nom comporte des symboles ou des caractères spéciaux dans la section 'Profil' ?
+- intent: CandidatEmailAdresse
+  examples: |
+    - Puis-je utiliser une adresse email professionnelle?
+    - Est-il acceptable d'utiliser une adresse e-mail de travail pour mon profil ?
+    - Est-il autorisé d'employer une adresse e-mail professionnelle dans la section 'Profil' ?
+- intent: CandidatDateBirth
+  examples: |
+    - Pourquoi dois-je fournir ma date de naissance?
+    - Quelle est la raison derrière la nécessité de fournir ma date de naissance dans la section 'Profil' ?
+    - Pourquoi est-il important de renseigner ma date de naissance sur mon profil ?
+- intent: CodePostalAdress
+  examples: |
+    - Dois-je inclure mon code postal dans mon adresse?
+    - Est-ce essentiel d'ajouter mon code postal à mon adresse dans la section 'Profil' ?
+    - Est-il obligatoire d'indiquer mon code postal dans mon adresse sur mon profil ?
+- intent: SlaireFormCandidat
+  examples: |
+    - Comment indiquer le salaire que je souhaite dans le formulaire?
+    - Comment spécifier mes attentes salariales sur le formulaire ?
+    - Comment exprimer mes préférences salariales dans le champ dédié du formulaire ?
+- intent: FormSalaireZExcatCand
+  examples: |
+    - Est-ce que je dois spécifier un salaire exact ou une fourchette pour le salaire mensuel désiré?
+    - Est-il préférable de fournir un salaire exact ou une fourchette de rémunération souhaitée ?
+    - Dois-je indiquer un montant précis ou une plage de salaire dans la section 'Salaire désiré' ?
+- intent: SalaireVideForm
+  examples: |
+    - Puis-je laisser le champ de salaire mensuel désiré vide?
+    - Est-il possible de ne pas renseigner le champ du salaire mensuel désiré ?
+    - Est-il acceptable de laisser vide le champ concernant le salaire mensuel souhaité ?
+- intent: lieuxTravailForm
+  examples: |
+    - Puis-je sélectionner plusieurs lieux de travail?
+    - Est-il autorisé de choisir plusieurs emplacements de travail ?
+    - Est-il possible de sélectionner plusieurs sites de travail dans la section 'Lieux de travail' ?
+- intent: DispoCandidatFrom
+  examples: |
+    - Comment indiquer quand je serai disponible pour commencer à travailler?
+    - Comment préciser ma disponibilité pour commencer à travailler dans le formulaire ?
+    - Comment indiquer la date à laquelle je suis disponible pour commencer dans la section 'Disponibilité' ?
+- intent: CandidatDisponible
+  examples: |
+    - Que faire si je suis immédiatement disponible pour travailler?Comment indiquer que je suis disponible immédiatement pour commencer à travailler ?
+    - Que dois-je faire si je suis prêt à travailler dès maintenant ?
+- intent: PostulePosteForm
+  examples: |
+    - Comment puis-je sélectionner le poste que je souhaite postuler?
+    - Comment puis-je choisir le poste auquel je veux postuler dans le formulaire ?
+    - Comment indiquer le poste spécifique pour lequel je souhaite poser ma candidature ?
+- intent: ListOffresDashbord
+  examples: |
+    - Qu'est-ce que la 'Liste Offres' ?
+    - Pouvez-vous définir ce que représente la 'Liste Offres' sur votre site ?
+    - Quelle est la signification de la section 'Liste Offres' sur votre plateforme ?
+- intent: ManqueOffres
+  examples: |
+    - Que  faire si je ne trouve pas suffisamment d'offres adaptées à mon profil dans la 'Liste Offres' ?
+    - Comment puis-je procéder si je ne trouve pas assez d'offres correspondant à mon profil dans la 'Liste Offres' ?
+    - Que puis-je faire si je ne trouve pas un nombre satisfaisant d'offres adaptées à mon profil dans la 'Liste Offres' ?
+- intent: ModifScoreCv
+  examples: |
+    - Est-ce que je peux modifier les critères qui influencent mon score de CV ?
+    - Est-il possible pour moi de modifier les critères pris en compte dans le calcul de mon score de CV ?
+    - Puis-je ajuster les paramètres qui affectent mon score de CV ?
+- intent: FacteurScoreCv
+  examples: |
+    - Quelles sont les facteurs qui peuvent augmenter mon score de cv?
+    - Quels sont les éléments susceptibles d'améliorer mon score de CV ?
+    - Quels critères peuvent contribuer à augmenter mon score de CV ?
+- intent: AugmenterScoreCv
+  examples: |
+    - Quelles sont les trucs qui je peux utiliser pour augmenter mon score de cv?
+    - comment augmenter mon score de CV ?
+    - Quels critères qui peuvent aider à augmenter mon score de CV ?
+- intent: AccedePlusOffres
+  examples: |
+    - Comment puis-je améliorer mon score de CV pour accéder à plus d'offres ?
+    - Quelles actions puis-je entreprendre pour augmenter mon score de CV et ainsi accéder à davantage d'offres ?
+    - Comment puis-je améliorer mon score de CV afin d'élargir mes opportunités d'emploi ?
+- intent: ChangeDomExpertise
+  examples: |
+    - Les offres recommandées seront-elles mises à jour si je change de carrière ou de domaine d'expertise ?
+    - Si je change de carrière ou de domaine d'expertise, est-ce que les offres recommandées seront actualisées en conséquence ?
+    - Est-ce que les offres recommandées seront ajustées si je décide de changer de domaine professionnel ou d'expertise ?
+- intent: PostuleViaListesOffres
+  examples: |
+    - Est-ce que je peux postuler directement via la 'Liste Offres' ?
+    - Est-il possible de soumettre ma candidature directement à partir de la 'Liste Offres' ?
+- intent: SuiviCnadidature
+  examples: |
+    - Comment je peux suivre ma candidature? 
+    - Comment puis-je surveiller le statut de ma candidature ? 
+    - Quelle est la procédure pour suivre l'avancement de ma candidature ?
+- intent: EnattenteSuiviCand
+  examples: |
+    - Qu'est-ce que l'état 'En attente' signifie pour mes candidatures ?
+    - Pouvez-vous expliquer ce que représente l'état 'En attente' pour mes candidatures ?
+    - Qu'est-ce que signifie le statut 'En attente' pour mes candidatures sur votre plateforme ?
+- intent: TestSuiviCand
+  examples: |
+    - Comment puis-je préparer le 'Test' mentionné dans le statut de ma candidature ?
+    - Comment puis-je me préparer pour le 'Test' évoqué dans le statut de ma candidature ?
+    - Quelles sont les étapes à suivre pour me préparer au 'Test' mentionné dans le statut de ma candidature ?
+- intent: MotifEntretienPlanifie
+  examples: |
+    - Mon statut indique 'Entretien planifié'. Comment vais-je recevoir les détails ?
+    - Comment vais-je recevoir les détails de l'entretien prévu, indiqué dans mon statut ?
+    - Quelle est la procédure pour obtenir les informations concernant l'entretien planifié mentionné dans mon statut ?
+- intent: ApresAccept
+  examples: |
+    - Quelles sont les prochaines étapes après avoir été 'Accepté' pour un poste ?
+    - Quelles sont les étapes suivantes une fois que j'ai été 'Accepté' pour un poste ?
+    - Après avoir été 'Accepté' pour un poste, quelles sont les prochaines démarches à suivre ?
+- intent: CandRefusee
+  examples: |
+    - Si ma candidature est 'Refusée', puis-je recevoir des commentaires ? 
+    - Est-il possible d'obtenir des commentaires si ma candidature est 'Refusée' ? 
+    -  Est-ce que je peux recevoir des retours d'informations si ma candidature est rejetée ?
+- intent: DetailsOffre
+  examples: |
+    - Comment puis-je voir plus de détails sur l'offre pour laquelle j'ai postulé ?
+    - Comment puis-je accéder à plus d'informations concernant l'offre pour laquelle j'ai postulé ? 
+    - Où puis-je trouver des détails supplémentaires sur l'offre d'emploi à laquelle j'ai postulé ?
+- intent: PoliConfidenEntreprise
+  examples: |
+    - Quelle est la politique de confidentialité de votre entreprise?
+    - politique de confidentialité 
+- intent: InfoConfidentialite
+  examples: |
+    - Où puis-je trouver des informations sur la politique de confidentialité de votre entreprise ?
+    - Comment puis-je accéder à la politique de confidentialité de votre entreprise ?

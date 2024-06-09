@@ -1,0 +1,386 @@
+version: "3.1"
+
+nlu:
+
+- intent: salut
+  examples: |
+    - Salut
+    - Bonjour
+    - salem
+    - Ahla
+    - bjr
+    - Bonsoir
+    - 3aslema
+    - Allons-y
+    - slt
+    - bsr
+    - Bonsoir
+    - Bon après-midi
+
+- intent: aurevoir
+  examples: |
+    - au revoir
+    - à plus tard
+    - bonne nuit
+    - beslema
+    - bonne journée
+    - à la prochaine
+    - bye bye
+    - à bientôt
+    - bye
+     
+
+
+- intent: affirmer
+  examples: |
+    - oui
+    - ouais
+    - effectivement
+    - bien sûr
+    - ça semble bien
+    - correct
+    - c'est ca 
+    - bien 
+    - ok
+
+- intent: refuser
+  examples: |
+    - non
+    - nn
+    - jamais
+    - je ne pense pas
+    - je n'aime pas ça
+    - pas du tout
+    - pas vraiment 
+    - la 
+
+- intent: mood_heureux
+  examples: |
+    - parfait
+    - génial
+    - incroyable
+    - merveilleux
+    - je me sens très bien
+    - je vais bien
+    - je suis incroyable 
+    - super excité
+    - extrêmement bien
+    - tellement parfait
+    - tellement bien
+   
+
+- intent: mood_malheureux
+  examples: |
+    - Je suis malheureux
+    - je ne me sens pas très bien
+    - je suis déçu
+    - super malheureux
+    - Je suis tellement malheureux
+    - triste
+    - très triste
+    - malheureux
+    - pas bon
+    - pas très bien
+    - extrêmement malheureux
+    - tellement malheureux
+    - si triste
+
+- intent: jesuisunChatBot
+  examples: |
+    - Etes-vous un robot?
+    - Êtes-vous un être humain?
+    - est-ce que je parle à un bot ?
+    - est-ce que je parle à un humain ?
+
+- intent: QuestionEntretien
+  examples: |
+    - donner moi des questions à poser pour un candidat dans un entretien ?
+    - donner moi des questions pour un entretien ?
+    - est ce que vous avez des questions entretien ?
+    - question entretien
+    
+- intent: AgentLogistique
+  examples: |
+    - donner moi la description de metier Agent Logistique 
+    - description de metier Agent Logistique
+    - metier Agent Logistique
+    - description poste Agent Logistique
+- intent: IngénieurIntelligenceArtificielle
+  examples: |
+    - donner moi la description de metier Ingénieur en Intelligence Artificielle 
+    - description de metier Ingénieur en Intelligence Artificielle
+    - metier Ingénieur en Intelligence Artificielle
+    - description poste Ingénieur en Intelligence Artificielle
+- intent: AnalysteMarché
+  examples: |
+    - donner moi la description de metier Analyste de Marché 
+    - description de metier Analyste de Marché
+    - metier Analyste de Marché
+    - description poste Analyste de Marché
+- intent: AnalysteFinancier
+  examples: |
+    - donner moi la description de metier Analyste Financier 
+    - description de metier Analyste Financier
+    - metier Analyste Financier
+    - description poste Analyste Financier
+- intent: AssistantRessourcesHumaines
+  examples: |
+    - donner moi la description du métier d'Assistant Ressources Humaines
+    - description du métier d'Assistant Ressources Humaines
+    - métier d'Assistant Ressources Humaines
+    - description poste Assistant Ressources Humaines
+- intent: AnalysteBusinessIntelligence
+  examples: |
+    - donner moi la description de metier Analyste en Business Intelligence 
+    - description de metier Analyste en Business Intelligence
+    - metier Analyste en Business Intelligence
+    - description poste Analyste en Business Intelligence
+- intent: ChefCouvoir
+  examples: |
+    - donner moi la description du métier de Chef Couvoir
+    - description du métier de Chef Couvoir
+    - métier de Chef Couvoir
+    - description poste Chef Couvoir
+- intent: ChefCuisine
+  examples: |
+    - donner moi la description de metier Chef de Cuisine 
+    - description de metier Chef de Cuisine
+    - metier Chef de Cuisine
+    - description poste Chef de Cuisine
+- intent: ChefProduction
+  examples: |
+    - donner moi la description de metier Chef de la Production 
+    - description de metier Chef de la Production
+    - metier Chef de la Production
+    - description poste Chef de la Production
+- intent: ChefProjet
+  examples: |
+    - donner moi la description de metier Chef de Projet 
+    - description de metier Chef de Projet
+    - metier Chef de Projet
+    - description poste Chef de Projet
+- intent: ArchitecteCloud
+  examples: |
+    - donner moi la description de metier Architecte Cloud 
+    - description de metier Architecte Cloud
+    - metier Architecte Cloud
+    - description poste Architecte Cloud
+- intent: CoachFitness
+  examples: |
+    - donner moi la description du métier de Coach de Fitness
+    - description du métier de Coach de Fitness
+    - métier de Coach de Fitness
+    - description poste Coach de Fitness
+- intent: Commercial
+  examples: |
+    - donner moi la description de metier Commercial 
+    - description de metier Commercial
+    - metier Commercial
+    - description poste Commercial
+- intent: CommercialSenior
+  examples: |
+    - donner moi la description du métier de Commercial Senior
+    - description du métier de Commercial Senior
+    - métier de Commercial Senior
+    - description poste Commercial Senior
+- intent: Comptable
+  examples: |
+    - donner moi la description du métier de Comptable
+    - description du métier de Comptable
+    - métier de Comptable
+    - description poste Comptable
+- intent: DataAnalyst
+  examples: |
+    - donner moi la description du métier de Data Analyst
+    - description du métier de Data Analyst
+    - métier de Data Analyst
+    - description poste Data Analyst
+- intent: DataEngineer
+  examples: |
+    - donner moi la description du métier de Data Engineer
+    - description du métier de Data Engineer
+    - métier de Data Engineer
+    - description poste Data Engineer
+- intent: DesignerUXUI
+  examples: |
+    - donner moi la description de metier DesignerUXUI
+    - description de metier DesignerUXUI
+    - metier DesignerUXUI
+    - description poste DesignerUXUI
+- intent: DeveloppeurMobile
+  examples: |
+    - donner moi la description du métier de Développeur Mobile
+    - description du métier de Développeur Mobile
+    - métier de Développeur Mobile
+    - description poste Développeur Mobile
+- intent: DeveloppeurWeb
+  examples: |
+    - donner moi la description du métier de Développeur Web
+    - description du métier de Développeur Web
+    - métier de Développeur Web
+    - description poste Développeur Web
+- intent: IngenieurEmbarque
+  examples: |
+    - donner moi la description du métier d'Ingénieur Embarqué
+    - description du métier d'Ingénieur Embarqué
+    - métier d'Ingénieur Embarqué
+    - description poste Ingénieur Embarqué
+- intent:  Infirmier
+  examples: |
+    - donner moi la description de metier Infirmier 
+    - description de metier Infirmier
+    - metier Infirmier
+    - description poste Infirmier
+- intent: IngenieurReseau
+  examples: |
+    - donner moi la description du métier d'Ingénieur Réseau
+    - description du métier d'Ingénieur Réseau
+    - métier d'Ingénieur Réseau
+    - description poste Ingénieur Réseau
+- intent: IngénieurDevOps
+  examples: |
+    - donner moi la description de metier Ingénieur DevOps 
+    - description de metier Ingénieur DevOps
+    - metier Ingénieur DevOps
+    - description poste Ingénieur DevOps
+- intent: IngénieurCybersécurité
+  examples: |
+    - donner moi la description de metier Ingénieur en Cybersécurité 
+    - description de metier Ingénieur en Cybersécurité
+    - metier Ingénieur en Cybersécurité
+    - description poste Ingénieur en Cybersécurité
+- intent: DataScientist
+  examples: |
+    - donner moi la description du métier de Data Scientist
+    - description du métier de Data Scientist
+    - métier de Data Scientist
+    - description poste Data Scientist
+- intent: ResponsableMarketing
+  examples: |
+    - donner moi la description du métier de Responsable Marketing
+    - description du métier de Responsable Marketing
+    - métier de Responsable Marketing
+    - description poste Responsable Marketing
+- intent: ScrumMaster
+  examples: |
+    - donner moi la description de metier Scrum Master 
+    - description de metier Scrum Master
+    - metier Scrum Master
+    - description poste Scrum Master
+- intent: SoftwareEngineer
+  examples: |
+    - donner moi la description du métier de Software Engineer
+    - description du métier de Software Engineer
+    - métier de Software Engineer
+    - description poste Software Engineer
+- intent: SpécialisteMarketingDigital
+  examples: |
+    - donner moi la description de metier Spécialiste en Marketing Digital 
+    - description de metier Spécialiste en Marketing Digital
+    - metier Spécialiste en Marketing Digital
+    - description poste Spécialiste en Marketing Digital
+- intent: SpécialisteProductionAnimale
+  examples: |
+    - donner moi la description du métier de Spécialiste en Production Animale
+    - description du métier de Spécialiste en Production Animale
+    - métier de Spécialiste en Production Animale
+    - description poste Spécialiste en Production Animale
+- intent: TechnicienMaintenanceIndustrielle
+  examples: |
+    - donner moi la description du métier de Technicien en Maintenance Industrielle
+    - description du métier de Technicien en Maintenance Industrielle
+    - métier de Technicien en Maintenance Industrielle
+    - description poste Technicien en Maintenance Industrielle
+- intent: TechnicoCommercial
+  examples: |
+    - donner moi la description du métier de Technico-commercial
+    - description du métier de Technico-commercial
+    - métier de Technico-commercial
+    - description poste Technico-commercial
+- intent: Inscription_Entreprise
+  examples: |
+    - Comment puis-je m'inscrire en tant qu'entreprise sur Rec_Inov ?
+- intent: Informations_Inscription
+  examples: |
+    - Quelles informations sont nécessaires pour s'inscrire en tant qu'entreprise sur Rec_Inov ?
+- intent: Connexion_Réseaux_Sociaux
+  examples: |
+    - Est-il possible de créer un compte entreprise sur Rec_Inov en utilisant mon compte LinkedIn, Facebook, ou d'autres moyens similaires ?
+- intent: Publication_Offre
+  examples: |
+    - Comment puis-je publier une offre d'emploi sur Rec_Inov ?
+- intent: Informations_Offre
+  examples: |
+    - Quelles informations dois-je inclure dans une offre d'emploi sur Rec_Inov ?
+- intent: Offre_Multiples_Postes
+  examples: |
+    - Puis-je publier une offre d'emploi pour plusieurs postes sur Rec_Inov ?
+- intent: Filtrer_Offres
+  examples: |
+    - Est-ce que je peux filtrer les offres ?
+- intent: Republier_Offre_Expirée
+  examples: |
+    - Comment publier une offre déjà expirée ?
+- intent: Republier_Offre_Archivée 
+  examples: |
+    - Comment publier une offre déjà archivée ?
+- intent: Modifier_Statut_Offre
+  examples: |
+    - Comment modifier le statut de l’offre ?
+- intent: Supprimer_Offre
+  examples: |
+    - Comment supprimer une offre ?
+- intent: Offre_En_Attente
+  examples: |
+    - Qu’est-ce qu'une offre de statut en attente ?
+- intent: Offre_Archivée
+  examples: |
+    - Qu’est-ce qu'une offre de statut archivé ?
+- intent: Offre_Expirée
+  examples: |
+    - Qu’est-ce qu'une offre de statut expiré ?
+- intent: Offre_Programmée
+  examples: |
+    - Qu’est-ce qu'une offre de statut programmé ?
+- intent: Visibilité_Offres
+  examples: |
+    - Mes offres sont-elles visibles pour tous les candidats sans exception ?
+- intent: Visibilité_Candidats
+  examples: |
+    - Qui peut voir mes offres ?
+- intent: Nombre_Offres
+  examples: |
+    - Quel est le nombre d'offres existantes sur le site ?
+- intent: Créer_Test
+  examples: |
+    - Comment créer un test ?
+- intent: Accéder_Tests
+  examples: |
+    - Comment accéder à tous les tests que j’ai créés ?
+- intent: Voir_Candidats_Test
+  examples: |
+    - Comment voir les candidats qui ont passé le test ?
+- intent: Consulter_Résultats_Test
+  examples: |
+    - Comment consulter les résultats des tests ?
+- intent: Consulter_Scores_Candidats
+  examples: |
+    - Comment consulter les scores des candidats dans un test ?
+- intent: Intégrer_Test_Offre
+  examples: |
+    - Comment intégrer un test dans une offre ?
+- intent: Envoyer_Test_Email
+  examples: |
+    - Est-ce que je peux envoyer un test par email ?
+- intent: Partager_Test
+  examples: |
+    - Comment partager un test ?
+- intent: Lien_Test
+  examples: |
+    - Comment avoir un lien pour le test ?
+- intent: Temps_Création_Test
+  examples: |
+    - Combien de temps faut-il pour créer un test ?
+- intent: Différences_Tests
+  examples: |
+    - Quelles sont les différences entre les tests générés manuellement et ceux générés via la base de données de Rec_Inov ?

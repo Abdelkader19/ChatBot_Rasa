@@ -1,0 +1,261 @@
+version: "3.1"
+
+rules: 
+
+- rule: Say aurevoir anytime the user says aurevoir
+  steps: 
+  - intent: aurevoir
+  - action: utter_aurevoir
+
+- rule: Say jesuisunChatBot anytime the user challenges
+  steps:
+  - intent: jesuisunChatBot
+  - action: utter_jesuisunChatBot
+
+- rule: Say CompGenieLogiciel's information
+  steps: 
+  - intent: CompGenieLogiciel
+  - action: utter_CompGenieLogiciel 
+
+- rule: Say CompMaterielInformatique's information
+  steps: 
+  - intent: CompMaterielInformatique
+  - action: utter_CompMaterielInformatique 
+- rule: Say CompSysEmabarque's information
+  steps: 
+  - intent: CompSysEmabarque
+  - action: utter_CompSysEmabarque 
+
+- rule: Say CompFPGA's information
+  steps: 
+  - intent: CompFPGA
+  - action: utter_CompFPGA 
+  
+- rule: Say CompArchiSys's information
+  steps: 
+  - intent: CompArchiSys
+  - action: utter_CompArchiSys 
+- rule: Say CompdevApplication's information
+  steps: 
+  - intent: CompdevApplication
+  - action: utter_CompdevApplication 
+- rule: Say CompSecuriteInformatique's information
+  steps: 
+  - intent: CompSecuriteInformatique
+  - action: utter_CompSecuriteInformatique 
+- rule: Say CompAdminBD's information
+  steps: 
+  - intent: CompAdminBD
+  - action: utter_CompAdminBD 
+- rule: Say CompReseaux's information
+  steps: 
+  - intent: CompReseaux
+  - action: utter_CompReseaux 
+- rule: Say CompPorjetInfo's information
+  steps: 
+  - intent: CompPorjetInfo
+  - action: utter_CompPorjetInfo 
+- rule: Say CompConcepSysNum's information
+  steps: 
+  - intent: CompConcepSysNum
+  - action: utter_CompConcepSysNum 
+- rule: Say CompRobotiqque's information
+  steps: 
+  - intent: CompRobotiqque
+  - action: utter_CompRobotiqque 
+- rule: Say CompTestLogciel's information
+  steps: 
+  - intent: CompTestLogciel
+  - action: utter_CompTestLogciel 
+- rule: Say CompResMarketing's information
+  steps: 
+  - intent: CompResMarketing
+  - action: utter_CompResMarketing 
+- rule: Say CompRespAchat's information
+  steps: 
+  - intent: CompRespAchat
+  - action: utter_CompRespAchat 
+- rule: Say CompResVente's information
+  steps: 
+  - intent: CompResVente
+  - action: utter_CompResVente 
+- rule: Say CompResLogistique's information
+  steps: 
+  - intent: CompResLogistique
+  - action: utter_CompResLogistique 
+- rule: Say CompResQualite's information
+  steps: 
+  - intent: CompResQualite
+  - action: utter_CompResQualite 
+- rule: Say CompResCRM's information
+  steps: 
+  - intent: CompResCRM
+  - action: utter_CompResCRM 
+- rule: Say CompResProduction's information
+  steps: 
+  - intent: CompResProduction
+  - action: utter_CompResProduction 
+- rule: Say CompDevERP's information
+  steps: 
+  - intent: CompDevERP
+  - action: utter_CompDevERP 
+- rule: Say CompGenieIndus's information
+  steps: 
+  - intent: CompGenieIndus
+  - action: utter_CompGenieIndus 
+- rule: Say CompGenieElectrique's information
+  steps: 
+  - intent: CompGenieElectrique
+  - action: utter_CompGenieElectrique 
+- rule: Say CompGenieCivil's information
+  steps: 
+  - intent: CompGenieCivil
+  - action: utter_CompGenieCivil 
+- rule: Say CompGenieMateriaux's information
+  steps: 
+  - intent: CompGenieMateriaux
+  - action: utter_CompGenieMateriaux 
+- rule: Say CompGenieMecanique's information
+  steps: 
+  - intent: CompGenieMecanique
+  - action: utter_CompGenieMecanique 
+- rule: Say CompResComptable's information
+  steps: 
+  - intent: CompResComptable
+  - action: utter_CompResComptable 
+- rule: Say ProcessPostEmploi's information
+  steps: 
+  - intent: ProcessPostEmploi
+  - action: utter_ProcessPostEmploi 
+- rule: Say ProfilCandidature's information
+  steps: 
+  - intent: ProfilCandidature
+  - action: utter_ProfilCandidature 
+- rule: Say DetailsProfil's information
+  steps: 
+  - intent: DetailsProfil
+  - action: utter_DetailsProfil 
+- rule: Say ChampsObligatoiresProfil's information
+  steps: 
+  - intent: ChampsObligatoiresProfil
+  - action: utter_ChampsObligatoiresProfil 
+- rule: Say DonneesPersonellesProfil's information
+  steps: 
+  - intent: DonneesPersonellesProfil
+  - action: utter_DonneesPersonellesProfil 
+- rule: Say ConfidentialiteInfoProfil's information
+  steps: 
+  - intent: ConfidentialiteInfoProfil
+  - action: utter_ConfidentialiteInfoProfil 
+- rule: Say CaracteresSpeciauxProfil's information
+  steps: 
+  - intent: CaracteresSpeciauxProfil
+  - action: utter_CaracteresSpeciauxProfil 
+- rule: Say CandidatEmailAdresse's information
+  steps: 
+  - intent: CandidatEmailAdresse
+  - action: utter_CandidatEmailAdresse 
+- rule: Say CandidatDateBirth's information
+  steps: 
+  - intent: CandidatDateBirth
+  - action: utter_CandidatDateBirth 
+- rule: Say CodePostalAdress's information
+  steps: 
+  - intent: CodePostalAdress
+  - action: utter_CodePostalAdress 
+- rule: Say SlaireFormCandidat's information
+  steps: 
+  - intent: SlaireFormCandidat
+  - action: utter_SlaireFormCandidat 
+- rule: Say FormSalaireZExcatCand's information
+  steps: 
+  - intent: FormSalaireZExcatCand
+  - action: utter_FormSalaireZExcatCand 
+- rule: Say SalaireVideForm's information
+  steps: 
+  - intent: SalaireVideForm
+  - action: utter_SalaireVideForm 
+- rule: Say lieuxTravailForm's information
+  steps: 
+  - intent: lieuxTravailForm
+  - action: utter_lieuxTravailForm 
+- rule: Say DispoCandidatFrom's information
+  steps: 
+  - intent: DispoCandidatFrom
+  - action: utter_DispoCandidatFrom 
+- rule: Say CandidatDisponible's information
+  steps: 
+  - intent: CandidatDisponible
+  - action: utter_CandidatDisponible 
+- rule: Say PostulePosteForm's information
+  steps: 
+  - intent: PostulePosteForm
+  - action: utter_PostulePosteForm 
+- rule: Say ListOffresDashbord's information
+  steps: 
+  - intent: ListOffresDashbord
+  - action: utter_ListOffresDashbord 
+- rule: Say ManqueOffres's information
+  steps: 
+  - intent: ManqueOffres
+  - action: utter_ManqueOffres 
+- rule: Say ModifScoreCv's information
+  steps: 
+  - intent: ModifScoreCv
+  - action: utter_ModifScoreCv 
+- rule: Say FacteurScoreCv's information
+  steps: 
+  - intent: FacteurScoreCv
+  - action: utter_FacteurScoreCv 
+- rule: Say AugmenterScoreCv's information
+  steps: 
+  - intent: AugmenterScoreCv
+  - action: utter_AugmenterScoreCv 
+- rule: Say AccedePlusOffres's information
+  steps: 
+  - intent: AccedePlusOffres
+  - action: utter_AccedePlusOffres 
+- rule: Say ChangeDomExpertise's information
+  steps: 
+  - intent: ChangeDomExpertise
+  - action: utter_ChangeDomExpertise 
+- rule: Say PostuleViaListesOffres's information
+  steps: 
+  - intent: PostuleViaListesOffres
+  - action: utter_PostuleViaListesOffres 
+- rule: Say SuiviCnadidature's information
+  steps: 
+  - intent: SuiviCnadidature
+  - action: utter_SuiviCnadidature 
+- rule: Say EnattenteSuiviCand's information
+  steps: 
+  - intent: EnattenteSuiviCand
+  - action: utter_EnattenteSuiviCand 
+- rule: Say TestSuiviCand's information
+  steps: 
+  - intent: TestSuiviCand
+  - action: utter_TestSuiviCand 
+- rule: Say MotifEntretienPlanifie's information
+  steps: 
+  - intent: MotifEntretienPlanifie
+  - action: utter_MotifEntretienPlanifie 
+- rule: Say ApresAccept's information
+  steps: 
+  - intent: ApresAccept
+  - action: utter_ApresAccept 
+- rule: Say CandRefusee's information
+  steps: 
+  - intent: CandRefusee
+  - action: utter_CandRefusee 
+- rule: Say DetailsOffre's information
+  steps: 
+  - intent: DetailsOffre
+  - action: utter_DetailsOffre 
+- rule: Say PoliConfidenEntreprise's information
+  steps: 
+  - intent: PoliConfidenEntreprise
+  - action: utter_PoliConfidenEntreprise 
+- rule: Say InfoConfidentialite's information
+  steps: 
+  - intent: InfoConfidentialite
+  - action: utter_InfoConfidentialite 

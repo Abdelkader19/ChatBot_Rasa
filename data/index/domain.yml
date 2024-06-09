@@ -1,0 +1,66 @@
+version: "3.1"
+
+intents:
+  - salut
+  - aurevoir
+  - affirmer 
+  - refuser
+  - mood_heureux 
+  - mood_malheureux
+  - jesuisunChatBot
+  - recinov
+  - objectifrecinov
+  - adresserecinov
+  - servicerecinov
+  - emploirecinov
+  - candidaturerecinov
+  - offreemploirecinov
+  - creationcv
+  - espacepersonnel
+  - posteplateforme
+  - politiqueconfidentialité
+
+responses:
+
+  utter_salut:
+  - text: "Salut ! Comment ça va ?"
+
+  utter_heureux:
+  - text: "Super, continuez !"
+ 
+  utter_malheureux:
+  - text: "Oh, je suis vraiment désolé de vous entendre dire ça. Essayez de faire des choses que vous aimez pour vous remonter le moral."
+
+  utter_aurevoir:
+  - text: "Au revoir"
+
+  utter_jesuisunChatBot:
+  - text: "Je suis un ChatBot, crée par Rec Inov."
+
+  utter_recinov:
+  - text: "Notre entreprise propose une solution de recrutement de premier ordre ! Rec-Inov utilise une approche intelligente pour choisir les talents et les guide tout au long du processus jusqu'à ce que le contrat soit signé"
+  utter_objectifrecinov:
+  - text: "Notre objectif est d'apporter des améliorations significatives, d'optimiser les processus et de rendre plus dynamique le marché du recrutement en Tunisie et à l'échelle mondiale grâce à l'intégration des dernières avancées technologiques"
+  utter_adresserecinov:
+  - text: "Voici les coordonnées de nos locaux : À Bezons, Paris : 5 rue Roger Masson, 95870 Bezons. À Sfax, Tunisie : 7 Avenue 5 Août, Rue Ibn Rachik."
+  utter_servicerecinov:
+  - text: "Rec Inov propose un service de remplissage automatique de CV qui permet d'économiser du temps en évitant les détails banals. Grâce à la fonction d'importation automatique, les utilisateurs peuvent importer leur document en quelques secondes, sans avoir à effectuer de copier-coller ou à remplir des informations non pertinentes"
+  utter_emploirecinov:
+  - text: "Dites adieu à la recherche manuelle d'emploi Rec-inov vous offre une solution. Son moteur de recherche intelligent vous permet de gagner du temps et de l'énergie en trouvant automatiquement les emplois correspondant à votre profil"
+  utter_candidaturerecinov:
+  - text: "Grâce à la plateforme Rec-inov, vous pouvez facilement suivre l'état de votre recherche d'emploi avec tous les détails de vos candidatures et entretiens"
+  utter_offreemploirecinov:
+  - text: "Rec-INOV propose un algorithme de matching avancé qui analyse votre profil pour vous envoyer quotidiennement de nouvelles offres correspondant à vos attentes. Fini les recherches fastidieuses, notre système vous présente des opportunités ciblées, adaptées à vos besoins"
+  utter_creationcv:
+  - text: "Vous n'avez pas de CV ? Pas de problème ! Avec l'outil de création de CV de REC-INOV, vous pouvez en concevoir un facilement et rapidement, même si vous n'avez aucune expérience préalable en la matière"
+  utter_espacepersonnel:
+  - text: "Vous disposez d'un espace personnel dédié chez REC-INOV, vous permettant de postuler à des offres d'emploi et de mettre à jour votre CV à tout moment. C'est votre propre espace, conçu pour simplifier et optimiser votre recherche d'emploi"
+  utter_posteplateforme:
+  - text: "Il y a beaucoup d'offres d'emploi très intéressantes ! Je vous conseille de vous rendre sur l'espace candidat et de vous inscrire en créant votre compte afin que vous puissiez consulter les offres d'emploi."
+  utter_politiqueconfidentialité:
+  - text: "Cliquez sur votre nom en haut à droite puis entrez dans la section politique"
+
+
+session_config:
+  session_expiration_time: 120
+  carry_over_slots_to_new_session: true
